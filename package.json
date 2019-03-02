@@ -1,8 +1,8 @@
 {
-  "name": "tiny",
+  "name": "tiny-app",
   "version": "1.0.0",
   "main": "bin/tiny.js",
-  "repository": "git@github.com:nitish24p/tiny.git",
+  "repository": "git@github.com:nitish24p/tiny-app.git",
   "author": "NitishPhanse <nitsums@gmail.com>",
   "keywords": [
     "tooling",
