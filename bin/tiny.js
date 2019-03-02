@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const path = require('path');
 const fs = require('fs');
 const ROOT_FOLDER = process.cwd();
+console.log("THE DIR NAME IS", __dirname)
 const templateFolder = `${ROOT_FOLDER}/templates`
 
 const folderName = process.argv.slice(2)[0];
