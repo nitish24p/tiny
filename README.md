@@ -10,7 +10,7 @@ main.js
 ```
 Thats it!!!
 
-[Tyneeapp](https://www.npmjs.com/package/teeny)
+[Tyneeapp](https://www.npmjs.com/package/tyneeapp)
 
 ### Usage
 ```bash
