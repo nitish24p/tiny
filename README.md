@@ -1,4 +1,4 @@
-## Teenyapp
+## Tyneeapp
 
 Bootstrap simple html projects.
 
