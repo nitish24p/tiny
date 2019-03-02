@@ -19,5 +19,5 @@ or
 ```bash
 npm install -g teenyapp
 
-teenyapp create <folder>
+teenyapp <folder>
 ```
