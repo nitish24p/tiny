@@ -4,7 +4,12 @@
   "main": "bin/tiny.js",
   "repository": "git@github.com:nitish24p/tiny.git",
   "author": "NitishPhanse <nitsums@gmail.com>",
-  "keywords": [],
+  "keywords": [
+    "tooling",
+    "zero config",
+    "boilerplate",
+    "scaffold"
+  ],
   "license": "MIT",
   "bin": {
     "tiny": "bin/tiny.js"
