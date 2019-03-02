@@ -2,13 +2,14 @@
 const chalk = require('chalk');
 const path = require('path');
 const fs = require('fs');
-const ROOT_FOLDER = process.cwd();
-console.log("THE DIR NAME IS", __dirname)
+const ROOT_FOLDER = `${__dirname}/../`;
+
 const templateFolder = `${ROOT_FOLDER}/templates`
 
 const folderName = process.argv.slice(2)[0];
 
 const destination = `${ROOT_FOLDER}/${folderName}`;
+
 
 if (!folderName) {
   console.log(chalk.blue(`
