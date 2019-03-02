@@ -2,12 +2,11 @@
 const chalk = require('chalk');
 const path = require('path');
 const fs = require('fs');
-const ROOT_FOLDER = `${__dirname}/../`;
-
-const templateFolder = `${ROOT_FOLDER}/templates`
+const ROOT_FOLDER = process.cwd();
+const BASE_ROOT = `${__dirname}/../`;
+const templateFolder = `${BASE_ROOT}/templates`;
 
 const folderName = process.argv.slice(2)[0];
-
 const destination = `${ROOT_FOLDER}/${folderName}`;
 
 
@@ -39,8 +38,8 @@ function scaffoldRepo() {
 
     fs.copyFileSync(`${templateFolder}/index.html`, `${destination}/index.html`)
     fs.copyFileSync(`${templateFolder}/server.js`, `${destination}/server.js`)
-    fs.closeSync(fs.openSync(folderName + '/main.js', 'w'));
-    fs.closeSync(fs.openSync(folderName + '/main.css', 'w'));
+    fs.closeSync(fs.openSync(destination + '/main.js', 'w'));
+    fs.closeSync(fs.openSync(destination + '/main.css', 'w'));
 
     console.log(chalk.blue(`
       ✅\t Done
