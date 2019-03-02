@@ -1,6 +1,6 @@
 {
   "name": "tyneeapp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "bin/tiny.js",
   "repository": "git@github.com:nitish24p/tyneeapp.git",
   "author": "NitishPhanse <nitsums@gmail.com>",
