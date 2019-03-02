@@ -43,7 +43,8 @@ function scaffoldRepo() {
 
     console.log(chalk.blue(`
       ✅\t Done
-      cd ${folderName} 
+      cd ${folderName}
+      To start dev server run node server.js (Optinal)
       Start Hacking!!!
     `))
   }
