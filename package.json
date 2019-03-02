@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "tiny": "bin/tiny.js"
+    "create": "bin/tiny.js"
   },
   "dependencies": {
     "chalk": "^2.4.2"
