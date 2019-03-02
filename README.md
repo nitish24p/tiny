@@ -1,4 +1,4 @@
-## Teenyapp
+## Tyneeapp
 
 Bootstrap simple html projects.
 
@@ -10,14 +10,16 @@ main.js
 ```
 Thats it!!!
 
+[Tyneeapp](https://www.npmjs.com/package/teeny)
+
 ### Usage
 ```bash
-npx teenyapp <project-name>
+npx tyneeapp <project-name>
 ```
 or
 
 ```bash
-npm install -g teenyapp
+npm install -g tyneeapp
 
-teenyapp <folder>
+tyneeapp <folder>
 ```
